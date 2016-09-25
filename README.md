@@ -2,7 +2,11 @@
 
 <p>Mejro is a text-based RPG coded in Java. Players must traverse a coordinate-based map without dying to enemies or an empty stomach, searching for weapons and supplies at points of interest. Victory is achieved by reaching a pre-determined location alive.</p>
 
-<h2>Tutorial</h2>
+<h2>Setup</h2>
+
+All necessary code is in <code>PostApocalypticRPG.java</code>. The names of the package and class should be adjusted accordingly.</p> 
+
+<h2>Gameplay</h2>
 
 <h3>Commands</h3>
 
