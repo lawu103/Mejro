@@ -251,7 +251,7 @@ public class PostApocalypticRPG
         }
         else if (difficulty.equals("blazing"))
         {
-            policew = randomGenerator.nextInt(5) + 1; //equivalent of 4/20 chance
+            policew = randomGenerator.nextInt(5) + 1; //equivalent of 1/5 chance
             policep = randomGenerator.nextInt(5) + 1; 
             policesh = randomGenerator.nextInt(5) + 1; 
             policea = randomGenerator.nextInt(5) + 1; 
@@ -262,7 +262,7 @@ public class PostApocalypticRPG
             militarysh = randomGenerator.nextInt(5) + 1; 
             militarya = randomGenerator.nextInt(5) + 1; 
             militarysn = randomGenerator.nextInt(5) + 1; 
-            SMWD = randomGenerator.nextInt(2) + 1; //SMWD CDXX exclusive to blazing
+            SMWD = randomGenerator.nextInt(2) + 1; //SMWD CDXX secret weapon exclusive to Blazing difficulty
             
             groceryf = randomGenerator.nextInt((20 - 4) + 1) + 4;
         }
@@ -285,7 +285,7 @@ public class PostApocalypticRPG
         }
         else if (difficulty.equals("blazing"))
         {
-            enemysp = randomGenerator.nextInt(5) + 1; //equivalent of 4/20
+            enemysp = randomGenerator.nextInt(5) + 1; //equivalent of 1/5
         }
         
         enemytype = randomGenerator.nextInt(10) + 1; //chooses potential enemy type
@@ -716,7 +716,7 @@ public class PostApocalypticRPG
             System.out.println(weapon5);
             System.out.println("Superior Mass Weaponized Destruction 420 mm - Energy-Directed Weapon");
             System.out.println("Cri-Fire Industries");
-            System.out.println("You also find a vast stockpile of food at the base. By your guess, it's around 420 cans.");
+            System.out.println("You also find a vast stockpile of food at the base.");
         }
     }
     
@@ -863,7 +863,7 @@ public class PostApocalypticRPG
             }
             else if (weapon.equals(weapon5)) //SMWD CDXX
             {
-                weapondmg = 420; //420 damage from blaaaaaaazing
+                weapondmg = 420; //utterly overpowered
             }
             
             weaponmag = weaponmag - 1; //depletes magazine 1 bullet at a time, same thing for ammo
@@ -929,7 +929,7 @@ public class PostApocalypticRPG
         {
             if (weapon5.equals("SMWD CDXX"))
             {
-                System.out.println("Are you insane? You have an infinite ammo laser beam weapon that can kill anything and everyone with one shot! Get back out there and start blazing!\n...");
+                System.out.println("Are you insane? You have an infinite ammo laser beam weapon that can kill anything and everyone with one shot!\n...");
                 battlemenu();
             }
             else
